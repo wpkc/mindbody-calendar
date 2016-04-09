@@ -9,6 +9,7 @@ Use this repository to add the following features to your custom WordPress theme
 * A single event template to display event details when a user clicks on an event in sidebar widget or calendar.
 * Uses WordPress transients to speed up response time and reduce the number of calls to MindBody Online.
 
+This code uses Devin Crossman's MindBody API wrapper code, and a copy of it is included in this repository.  The current version of that code, with additional sample files, is located here:  https://github.com/devincrossman/mindbody-php-api
 
 Note: This is a fully functional, but unfinished project. I have no plans to continue work on it at this time. It was designed to replace the functionality of Modern Tribe's "The Events Calendar" WordPress plugin for a client that was using that before they signed up with MindBody Online.  I did not find out until after I wrote all this code that you must have an Accelerate or Ultimate level account to get API access, and my client only had a Solo account.  Upgrading their account was not possibile with their budget, so I discontinued development.
 
