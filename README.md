@@ -33,7 +33,7 @@ Configuring:
 
 * This code adds a Mindbody Events widget to your theme.  Add one copy of the widget to any sidebar on your site.  Configure your Mindbody API SourceName, Password, and SiteIDs in the widget and save the settings.  If you don't want to display the widget on your site, no problem, delete the widget from your sidebar after you have saved the Mindbody API credentials.  The widget saves a copy of these credentials in the WordPress options table for access by other parts of the code.
 * You can set the widget Title and the maximum number of events to display in the sidebar.
-* To display the events calendar, add a new Page to you set. Set the page Template to "Mindbody Calendar." Give your page a title and save the page.  That's it.
+* To display the events calendar, add a new Page to your WordPress web site. Set the page Template to "Mindbody Calendar." Give your page a title and save the page.  That's it.
 
 Development Ideas:
 * Converting this to a plug-in may make it easier to deploy.  
@@ -42,3 +42,5 @@ Development Ideas:
 * Add hover effects to calendar events.
 * Modify media queries section of style-mindbody.css to convert calendar table display into unordered list display on small screens to increase readability.
 * Add calendar display mode switch to switch between table display and list display for large displays.
+* You might want to add "the loop" to the calendar page template if you want to add additional content to the calendar page.
+* Convert the calendar code into a WordPress shortcode so you can embed the calendar anywhere in any page without needing to use the calendar page template.
