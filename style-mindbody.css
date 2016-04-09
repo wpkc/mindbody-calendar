@@ -1,0 +1,243 @@
+/**
+ * CSS Styles for MindBody calendar elements
+ *
+ * All contents (c)2016 Kazimer Corp.
+ * Removal in part or in whole of this copyright notice is not allowed.
+ * Selling these contents or any derivative works is a violation of copyright law.
+ * Kazimer Corp and its employees will be held harmless should any loss occur while using this code.
+ * Use of this code constitutes full agreement with all these terms.
+ *
+ *  http://www.kazimer.com
+ *
+ *  @author     Kazimer Corp
+ *  @copyright  (c) 2016 - Kazimer Corp
+ *  @version    1.0.0
+ */
+.h-event.event-details {
+    margin: 1em;
+    padding: 0;
+    width: 95%;
+}
+.h-event h4.entry-title.canceled > a > span,
+.h-event h1.entry-title.canceled,
+div.event.canceled h3 a,
+div.event.canceled h3 a span.time {
+    color:#f00 !important;
+}
+.h-event h2.event-schedule.canceled,
+.h-event h2.event-schedule.canceled span,
+.h-event span.canceled,
+.h-event span.canceled span{
+    text-decoration: line-through;
+}
+.h-event.event-details .entry-title, .h-event .event-schedule {
+    font-family: "PT Sans",Verdana,Arial,Helvetica,sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.h-event.event-details .info-box {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #eee;
+    display: inline-block;
+    margin: 30px 0;
+    min-height: 25em;
+    padding: 0 2em;
+    position: relative;
+    width: 100%;
+}
+.h-event.event-details .info-box .section {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 0 1em 1em 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+}
+.h-event.event-details .section .section-title {
+    font-family: "PT Sans",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    margin: 0 auto 1.1em 0;
+    padding: 0 !important;
+}
+.h-event.event-details .section dt {
+    clear: left;
+    font-weight: 700;
+    line-height: 1;
+    list-style: outside none none;
+}
+.h-event.event-details .section dd {
+    float: none;
+    line-height: 1.5;
+    list-style: outside none none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.h-event.event-details .section dd.event-venue {
+    clear: left;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+.h-event.event-details .section dd abbr {
+    border-bottom: 0 none;
+    cursor: default;
+}
+.h-event.event-details .section dd address {
+    display: block;
+    margin: 0;
+}
+.h-event.event-details .section.venuemap {
+    display: inline-block;
+    float: left;
+    height: 350px;
+    position: absolute;
+    width: 33%;
+    background-color: #eee;
+    border-radius: 6px;
+    margin-top: 1.5em !important;
+}
+#calendar-content > h2 {
+    text-align: center;
+}
+table.calendar {
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+    clear: both;
+    font-size: 0.75em;
+    margin: 0.6em 0;
+    table-layout: fixed;
+    width: 100%;
+}
+#calendar-content div.month {
+    font-size: 0.75em;
+    font-weight: 700;
+    margin: 0 0 1em;
+    cursor: pointer;
+}
+#calendar-content div.month.prev {
+    float: left;
+}
+#calendar-content div.month.next {
+    float: right;
+}
+table.calendar th {
+    background-color: #ddd;
+    color: #333;
+    height: 1em;
+    padding: 0.4em 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 14.28%;
+}
+table.calendar td {
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    color: #114b7d;
+    font-size: 0.8em;
+    min-height: 8em;
+    padding: 0 0 0.5em;
+    vertical-align: top;
+    width: 14.28%;
+}
+table.calendar td div:first-child {
+    background-color: #f5f5f5;
+    color: #555;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0.6em 1.2em;
+    position: relative;
+}
+table.calendar td div.outside:first-child {
+    color:#aaa;
+    opacity:0.5;
+}
+table.calendar td div.event {
+    border-bottom: 1px solid #e7e7e7;
+    margin: 0 5%;
+    padding: 6px 8px;
+    text-align: center;
+}
+table.calendar td div.event:last-child {
+    border: none;
+}
+table.calendar td div.event h3 {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-transform: none;
+}
+table.calendar td div.event h3 a {
+    text-decoration: none;
+}
+table.calendar td div.event h3 a span.time {
+    font-weight: normal;
+}
+table.calendar td div.event h3.outside {
+    opacity: 0.4;
+}
+
+/**
+ * Media Queries
+ * ----------------------------------------------------------------------------
+ */
+@-ms-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+}
+/* Table adjustments for really small screens */
+@media	only screen and (max-width : 479px) {
+    table.calendar {
+        display: table;
+        font-size: 0.25em;
+        margin: 0.6em 0;
+        width: 100%;
+    }
+    table.calendar tr {
+        display: table-row;
+    }
+    table.calendar th {
+        display: table-cell;
+        font-size: 0.25em;
+        height: auto;
+        padding: 0.2em 0;
+        text-indent: 0;
+    }
+    table.calendar td {
+        display: table-cell;
+        font-size: 0.25em;
+        min-height: 8em;
+        padding: 0 0 0.5em;
+        text-indent: 0;
+    }
+    table.calendar td div:first-child,
+    table.calendar td div.event h3,
+    table.calendar td div.event h3 a {
+        font-size: 0.25em;
+    }
+    .h-event.event-details .info-box {
+        padding: 0 1em;
+    }
+    .h-event.event-details .info-box .section {
+        margin: 0 0.3em 1em 0;
+        width: 46%;
+    }
+    .h-event.event-details .section.venuemap {
+        clear: both;
+        display: block;
+        float: none;
+        margin: 1em auto;
+        position: relative;
+        text-align: center;
+        width: 95%;
+    }
+}
