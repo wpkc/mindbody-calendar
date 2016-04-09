@@ -12,7 +12,7 @@ Code you can add to your WordPress theme to add:
 This code uses Devin Crossman's MindBody API wrapper code.  The current version of that code is here:
 https://github.com/devincrossman/mindbody-php-api
 
-Note: This is an unfinished project, and I have no plans to continue work on it. It was supposed to replace Modern Tribe's "The Events Calendar" WordPress plugin event display functionality for a client that signed up with MindBody Online.  I did not find out until after I wrote all this code that you must have an Accelerate or Ultimate level account to get API access, and my client only had a Solo account.  Upgrading their account was not possibile with their budget, so I discontinued development.
+Note: This is a fully functional, but unfinished project. I have no plans to continue work on it at thi time. It was designed to replace the functionality of Modern Tribe's "The Events Calendar" WordPress plugin for a client that was using that before they signed up with MindBody Online.  I did not find out until after I wrote all this code that you must have an Accelerate or Ultimate level account to get API access, and my client only had a Solo account.  Upgrading their account was not possibile with their budget, so I discontinued development.
 
 
 Installation:
