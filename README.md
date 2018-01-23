@@ -1,7 +1,7 @@
 mindbody-calendar
 =======
 
-NOTICE: MindBody Online API access is only available to customers with Accelerate or Ultimate level accounts.  This code will NOT work with anything less.
+<strong>NOTICE:</strong> <em>MindBody Online API access is only available to customers with Accelerate or Ultimate level accounts.  This code will NOT work with anything less.</em>
 
 Use this repository to add the following features to your custom WordPress theme:
 * A sidebar widget that displays up to 12 upcoming events from your MindBody Online account.
